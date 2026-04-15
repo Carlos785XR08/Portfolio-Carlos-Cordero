@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+html, body {
+  color: #fff;
+  background-color: #1f1934;
+}
+
+main {
+  background: #393a47;
+  height: 100vh;
+  height: 100dvh;
+}
+
+Swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, 
+.swiper-pagination-horizontal.swiper-pagination-bullets
+.swiper-pagination-bullet {
+  background-color: rgb(var(--primary));
+}
+
+
+:root {
+  --primary: 11 19 43;     /* Deep Night */
+  --secondary: 0 242 255;  /* Cyber Cyan */
+  --accent: 239 68 68;     /* el que pediste */
+  --neutral: 224 225 221;  /* White */
+  --gray: 74 85 104;       /* Steel Grey */
+}
+
+
