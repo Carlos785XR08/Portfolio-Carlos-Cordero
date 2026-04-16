@@ -44,11 +44,11 @@ const TestimonialsPage = () => {
                             <SwiperSlide key={id}>
                                 <Image src={imageUrl} alt={name} width={100} height={100} className="mx-auto rounded-full" />
 
-                                <h4 className="text-center">
+                                <h4 className="text-center text-">
                                     {name}
                                 </h4>
 
-                                <p className="mt-5 text-center ">
+                                <p className="mt-5 text-center  " >
                                     {description}
                                 </p>
                             

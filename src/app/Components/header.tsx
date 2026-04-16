@@ -10,9 +10,9 @@ const Header = () => {
             <Link href="/">
             <h1 className="my-3 text-4xl font-bold text-center md:text-left">
 
-                Carlos
-                <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-                    Dev
+                Carlos {""}
+                <span className="bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">
+                    Cordero
 
                 </span>
 
