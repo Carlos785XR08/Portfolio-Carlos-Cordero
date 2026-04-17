@@ -17,7 +17,7 @@ const PageAboutMe = () => {
                 trayectoria profesional
             </span>
         </h1>
-        <CounterServices/>
+       {/* <CounterServices/>*/}
         <TimeLine/>
         </ContainerPage>  
     </>

@@ -1,4 +1,4 @@
-import { Phone, Mail,  Github, BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { Briefcase, Layers, Code, Phone, Mail,  Github, BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
 
 export const socialNetworks = [
     {
@@ -14,7 +14,7 @@ export const socialNetworks = [
     {
         id: 3,
         logo: <Mail size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "mailto:c@outlook.com",
     },
     {
         id: 4,
@@ -42,53 +42,48 @@ export const itemsNavbar = [
     },
     {
         id: 3,
-        title: "Book",
-        icon: <BookText size={25} color="#fff" strokeWidth={1} />,
+        title: "Code",
+        icon: <Code size={25} color="#fff" strokeWidth={1} />,
         link: "/services",
     },
     {
         id: 4,
-        title: "Target",
-        icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
+        title: "Layers",
+        icon: <Layers size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
     },
+    
     {
-        id: 5,
-        title: "Home",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
+       id: 5,
+        title: "Briefcase",
+        icon: <Briefcase size={25} color="#fff" strokeWidth={1} />,
         link: "/testimonials",
-    },
+    }, 
 ];
 
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
+        title: "Desarrollador Web / Marketing",
+        subtitle: "Cimbramex",
+        description: "Colaboré con un equipo dinámico para desarrollar sitio web.",
+        date: "sep. 2025 - mar. 2026 " ,
     },
     {
         id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        title: "Analista Jr",
+        subtitle: "Financiera. Broxel",
+        description: "Trabajé en proyectos emocionantes.",
+        date: "Mar. 2025 - Jun. 2025",
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        title: "Desarrollo de Software",
+        subtitle: "CFE Telecomunicaciones e internet para todos",
+        description: "Como desarrollador frontend, tuve la oportunidad de colaborar en proyectos .",
+        date: "Ene. 2024 - Ene. 2025",
     },
-    {
-        id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
-    },
+    
 ]
 
 export const dataCounter = [

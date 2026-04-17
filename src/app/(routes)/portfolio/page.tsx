@@ -8,8 +8,8 @@ const PortfolioPage = () => {
   return (
     <ContainerPage>
       <TransitionPage/>
-      <ImageAva3/>
-      <CircleImage/>
+      {/*<ImageAva3/>*/}
+     {/* <CircleImage/>*/}
 
           <div className=" flex flex-col justify-center h-full">
 

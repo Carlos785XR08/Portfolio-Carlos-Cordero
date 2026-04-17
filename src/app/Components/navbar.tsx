@@ -19,6 +19,8 @@ const Navbar = () => {
                      hover:bg-[rgb(var(--secondary))] 
                       ${router === item.link && "bg-[rgb(var(--secondary))]"}`}                >
                   
+                      
+
                   <Link href={item.link}>{item.icon}</Link>
                 </div>    
                )) }

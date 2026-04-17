@@ -55,7 +55,8 @@ const Introduction = () => {
           </h1>
 
           <p className="mb-6 text-base md:text-lg">
-            Como desarrollador frontend y creador de contenido, me apasiona compartir mis conocimientos y ayudar a otros a crecer en el mundo del desarrollo web.
+            Desarrollador Web con experiencia en la creación e implementación de soluciones digitales, desde el diseño hasta el despliegue en producción. Enfocado en el desarrollo de interfaces modernas y eficientes, con especialización en frontend y conocimientos en backend.
+.
           </p>
 
           {/* 🔘 Botones */}
