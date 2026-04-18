@@ -2,7 +2,7 @@ import { dataAboutPage } from "../data";
 
 const TimeLine = () => {
   return (
-    <div className="flex flex-col justify-center divide-y divide-y divide-slate-200">
+    <div className="flex flex-col justify-center divide-y divide-y-8 divide-slate-200">
         <div className="w-full max-w-3xl mx-auto md:pb-40 pt-20 ">
 
             <div className="-my-6">

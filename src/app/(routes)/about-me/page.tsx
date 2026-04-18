@@ -7,19 +7,23 @@ import TimeLine from "@/app/Components/time-line";
 const PageAboutMe = () => {
   return (
     <>
+
+    
      <TransitionPage/>
      
     <ContainerPage>
         {/*<Avatar/>*/}
         <h1 className="text-2xl leadingg-tight text-center md:text-left md:text-5xl md:mt-10">
-            toda mi {''}
+            Mi  {''}
             <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-violet-500">
-                trayectoria profesional
+                experiencia profesional
             </span>
         </h1>
        {/* <CounterServices/>*/}
         <TimeLine/>
+        
         </ContainerPage>  
+        
     </>
   );
 };

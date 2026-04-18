@@ -1,4 +1,5 @@
 import { Briefcase, Layers, Code, Phone, Mail,  Github, BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { title } from "process";
 
 export const socialNetworks = [
     {
@@ -14,12 +15,12 @@ export const socialNetworks = [
     {
         id: 3,
         logo: <Mail size={30} strokeWidth={1} />,
-        src: "mailto:c@outlook.com",
+        src: "mailto:carloscordero4554@outlook.com",
     },
     {
         id: 4,
         logo: <Phone size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://wa.me/5215565315567",
     },
     
 ];
@@ -44,8 +45,10 @@ export const itemsNavbar = [
         id: 3,
         title: "Code",
         icon: <Code size={25} color="#fff" strokeWidth={1} />,
-        link: "/services",
+        link: "/skills",
     },
+
+
     {
         id: 4,
         title: "Layers",
@@ -53,12 +56,7 @@ export const itemsNavbar = [
         link: "/portfolio",
     },
     
-    {
-       id: 5,
-        title: "Briefcase",
-        icon: <Briefcase size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
-    }, 
+   
 ];
 
 export const dataAboutPage = [
@@ -174,34 +172,7 @@ export const dataPortfolio = [
         urlGithub: "#!",
         urlDemo: "#!",
     },
-    {
-        id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    }
+   
 ];
 
 export const dataTestimonials = [

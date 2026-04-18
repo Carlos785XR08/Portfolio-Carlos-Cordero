@@ -18,7 +18,7 @@ const Portafolio = (props: PortafolioProps) => {
       <h3 className="mb-4 text-xl">
         {title}</h3>
 
-        <Image src={image} alt="image product" width={200} height={200} className="w-full md:w-[200px] rounded-2xl h-auto" />
+        <Image src={image} alt="image product" width={200} height={200} className="w-full md:w-[125px] rounded-2xl h-auto" />
 
         <div className="flex gap-5 mt-5">
               <Link href={urlGithub} target="_blank" className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80">
