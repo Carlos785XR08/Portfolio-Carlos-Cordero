@@ -14,7 +14,7 @@ const Introduction = () => {
           <div className="
             rounded-full 
             overflow-hidden 
-            w-28 h-28 
+            w-2 h-28 
             sm:w-36 sm:h-36 
             md:w-44 md:h-44 
             lg:w-52 lg:h-52
@@ -34,7 +34,7 @@ const Introduction = () => {
         {/* 🧠 Texto */}
         <div className="flex flex-col justify-center items-center md:items-start max-w-xl mx-auto md:mx-0 text-center md:text-left">
           
-          <h1 className="mb-5 text-2xl leading-tight md:text-4xl md:mb-8">
+          <h1 className="mb-7 text-2xl leading-tight md:text-4xl md:mb-8">
             Todo empieza con una idea, <br />
             <TypeAnimation
               sequence={[
