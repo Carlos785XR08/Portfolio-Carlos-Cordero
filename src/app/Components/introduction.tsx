@@ -64,7 +64,7 @@ const Introduction = () => {
             
             <Link
               href="/portfolio"
-              className="px-2 py-2 border-2 rounded-xl hover:shadow-xl hover:shadow-white/50 transition-all"
+              className="px-4 py-2 border-2 rounded-xl hover:shadow-xl hover:shadow-white/50 transition-all"
             >
               Ver Proyectos
             </Link>
@@ -73,7 +73,7 @@ const Introduction = () => {
               href="https://wa.me/5215565315567"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-2 py-2 border-2 rounded-xl hover:shadow-xl hover:shadow-white/50 transition-all"
+              className="px-4 py-2 border-2 rounded-xl hover:shadow-xl hover:shadow-white/50 transition-all"
               >
                  WhatsApp
             </a>
@@ -81,7 +81,7 @@ const Introduction = () => {
             <a
               href="/CV_Carlos_Arturo_Cordero_Núñez.pdf"
               download
-              className="px-2 py-2 border-2 rounded-xl hover:shadow-xl hover:shadow-white/50 transition-all"
+              className="px-4 py-2 border-2 rounded-xl hover:shadow-xl hover:shadow-white/50 transition-all"
             >
               Descargar CV
             </a>
