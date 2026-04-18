@@ -14,7 +14,7 @@ const Introduction = () => {
           <div className="
             rounded-full 
             overflow-hidden 
-            w-2 h-28 
+            w-28 h-28 
             sm:w-36 sm:h-36 
             md:w-44 md:h-44 
             lg:w-52 lg:h-52
@@ -34,7 +34,7 @@ const Introduction = () => {
         {/* 🧠 Texto */}
         <div className="flex flex-col justify-center items-center md:items-start max-w-xl mx-auto md:mx-0 text-center md:text-left">
           
-          <h1 className="mb-7 text-2xl leading-tight md:text-4xl md:mb-8">
+          <h1 className="mb-5 text-2xl leading-tight md:text-4xl md:mb-8">
             Todo empieza con una idea, <br />
             <TypeAnimation
               sequence={[
@@ -64,7 +64,7 @@ const Introduction = () => {
             
             <Link
               href="/portfolio"
-              className="px-4 py-2 border-2 rounded-xl hover:shadow-xl hover:shadow-white/50 transition-all"
+              className="px-2 py-2 border-2 rounded-xl hover:shadow-xl hover:shadow-white/50 transition-all"
             >
               Ver Proyectos
             </Link>
@@ -73,7 +73,7 @@ const Introduction = () => {
               href="https://wa.me/5215565315567"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 border-2 rounded-xl hover:shadow-xl hover:shadow-white/50 transition-all"
+              className="px-2 py-2 border-2 rounded-xl hover:shadow-xl hover:shadow-white/50 transition-all"
               >
                  WhatsApp
             </a>
@@ -81,7 +81,7 @@ const Introduction = () => {
             <a
               href="/CV_Carlos_Arturo_Cordero_Núñez.pdf"
               download
-              className="px-4 py-2 border-2 rounded-xl hover:shadow-xl hover:shadow-white/50 transition-all"
+              className="px-2 py-2 border-2 rounded-xl hover:shadow-xl hover:shadow-white/50 transition-all"
             >
               Descargar CV
             </a>
