@@ -1,25 +1,26 @@
 import { Briefcase, Layers, Code, Phone, Mail,  Github, BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
 import { title } from "process";
+import { FaEnvelope, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Github size={30} strokeWidth={1} />,
+        logo: <FaGithub size={30} strokeWidth={1} />,
         src: "#!",
     },
     {
         id: 2,
-        logo: <Linkedin size={30} strokeWidth={1} />,
+        logo: <FaLinkedin size={30} strokeWidth={1} />,
         src: "#!",
     },
     {
         id: 3,
-        logo: <Mail size={30} strokeWidth={1} />,
+        logo: <FaEnvelope size={30} strokeWidth={1} />,
         src: "mailto:carloscordero4554@outlook.com",
     },
     {
         id: 4,
-        logo: <Phone size={30} strokeWidth={1} />,
+        logo: <FaWhatsapp size={30} strokeWidth={1} />,
         src: "https://wa.me/5215565315567",
     },
     

@@ -69,14 +69,7 @@ const Introduction = () => {
               Ver Proyectos
             </Link>
 
-            <a
-              href="https://wa.me/5215565315567"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-4 py-2 border-2 rounded-xl hover:shadow-xl hover:shadow-white/50 transition-all"
-              >
-                 WhatsApp
-            </a>
+            
 
             <a
               href="/CV_Carlos_Arturo_Cordero_Núñez.pdf"
