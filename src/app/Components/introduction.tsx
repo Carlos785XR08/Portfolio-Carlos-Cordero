@@ -2,7 +2,13 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { TypeAnimation } from "react-type-animation";
+import dynamic from "next/dynamic";
+
+// 👇 Import dinámico (SOLUCIÓN AL ERROR)
+const TypeAnimation = dynamic(
+  () => import("react-type-animation").then((mod) => mod.TypeAnimation),
+  { ssr: false }
+);
 
 const Introduction = () => {
   return (
@@ -11,15 +17,9 @@ const Introduction = () => {
         
         {/* 🖼️ Imagen */}
         <div className="flex justify-center md:justify-end mt-10 md:mt-0 md:pr-10 lg:pr-50">
-          <div className="
-            rounded-full 
-            overflow-hidden 
-            w-28 h-28 
-            sm:w-36 sm:h-36 
-            md:w-44 md:h-44 
-            lg:w-52 lg:h-52
-            shadow-xl
-          ">
+          <div
+            className="rounded-full overflow-hidden w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 lg:w-52 lg:h-52 shadow-xl"
+          >
             <Image
               src="/images/Car.jpg"
               alt="profile pic"
@@ -36,6 +36,8 @@ const Introduction = () => {
           
           <h1 className="mb-5 text-2xl leading-tight md:text-4xl md:mb-8">
             Todo empieza con una idea, <br />
+            
+            {/* 👇 Esto ya NO rompe hydration */}
             <TypeAnimation
               sequence={[
                 "se transforma en código",
@@ -50,13 +52,14 @@ const Introduction = () => {
               wrapper="span"
               speed={50}
               repeat={Infinity}
-              className="font-bold  text-blue-500 "
+              className="font-bold text-blue-500"
             />
           </h1>
 
           <p className="mb-6 text-base md:text-lg">
-            Desarrollador Web con experiencia en la creación e implementación de soluciones digitales, desde el diseño hasta el despliegue en producción. Enfocado en el desarrollo de interfaces modernas y eficientes, con especialización en frontend y conocimientos en backend.
-.
+            Desarrollador Web con experiencia en la creación e implementación de soluciones digitales, 
+            desde el diseño hasta el despliegue en producción. Enfocado en el desarrollo de interfaces 
+            modernas y eficientes, con especialización en frontend y conocimientos en backend.
           </p>
 
           {/* 🔘 Botones */}
@@ -68,8 +71,6 @@ const Introduction = () => {
             >
               Ver Proyectos
             </Link>
-
-            
 
             <a
               href="/CV_Carlos_Arturo_Cordero_Núñez.pdf"

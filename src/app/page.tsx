@@ -1,3 +1,4 @@
+"use cliente"
 import CoverParticles from "./Components/cover-particles";
 import Introduction from "./Components/introduction";
 import TransitionPage from "./Components/transition-page";
