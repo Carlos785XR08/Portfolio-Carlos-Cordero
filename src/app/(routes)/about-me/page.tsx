@@ -15,7 +15,7 @@ const PageAboutMe = () => {
         {/*<Avatar/>*/}
         <h1 className="text-2xl leadingg-tight text-center md:text-left md:text-5xl md:mt-10">
             Mi  {''}
-            <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-violet-500">
+            <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#E0E1DD] via-[#00F2FF] to-[#61DAFB]">
                 experiencia profesional
             </span>
         </h1>

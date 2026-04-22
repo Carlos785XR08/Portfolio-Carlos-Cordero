@@ -52,7 +52,7 @@ const Introduction = () => {
               wrapper="span"
               speed={50}
               repeat={Infinity}
-              className="font-bold text-blue-500"
+              className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#E0E1DD] via-[#00F2FF] to-[#61DAFB]"
             />
           </h1>
 

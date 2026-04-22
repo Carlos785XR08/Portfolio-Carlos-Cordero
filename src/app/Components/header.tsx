@@ -11,7 +11,7 @@ const Header = () => {
             <h1 className="my-3 text-4xl font-bold text-center md:text-left">
 
                 Carlos {""}
-                <span className="bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">
+                <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#E0E1DD] via-[#00F2FF] to-[#61DAFB]">
                     Cordero
 
                 </span>

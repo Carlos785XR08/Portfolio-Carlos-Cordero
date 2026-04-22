@@ -18,7 +18,7 @@ const TimeLine = () => {
                     {data.date}
                   </time>
 
-                  <p className="text-xl font-bold text-blue-400">
+                  <p className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#E0E1DD] via-[#00F2FF] to-[#61DAFB]">
                     {data.subtitle } 
 
                   </p>

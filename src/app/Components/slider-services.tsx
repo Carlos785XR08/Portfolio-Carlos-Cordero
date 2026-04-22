@@ -31,19 +31,23 @@ const SliderServices = () => {
     >
         {serviceData.map((item, index) => (
             <SwiperSlide key={index} >
-               <div className="flex px-6 py-8 h-auto md:h-[290px] rounded-lg cursor-pointer  bg-gradient-to-r  sm:flex-col gap-x-6 sm:gap-x-0 group transition-all hover:from-blue-600  duration-300 border-2  hover:border-blue-500  border-cyan-500 ">
+               <div className="flex flex-col px-6 py-8 h-auto md:h-[290px] rounded-lg cursor-pointer transition-all duration-300 group
+    /* Fondo y Borde con tus colores de marca */
+    bg-[#080808] border-2 border-[#00F2FF]/30 hover:border-[#61DAFB] 
+    /* Efecto de resplandor sutil */
+    hover:shadow-[0_0_20px_rgba(97,218,251,0.2)] ">
 
-                <div className=" mb-4 text-4xl text-white">{item.icon}</div>
+                <div className=" mb-4 text-4xl text-white transition-colors duration-300 group-hover:text-[#00F2FF]">{item.icon}</div>
 
                  
 
                 <div>
-                    <h3 className="mb-4 text-lg ">
+                    <h3 className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#E0E1DD] via-[#00F2FF] to-[#61DAFB] ">
                         {item.title}
                         
                     </h3>
 
-                    <p className="text-sm" >
+                    <p className="text-sm " >
                             {item.description}
                         </p>
                 </div>
