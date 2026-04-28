@@ -37,10 +37,10 @@ const skillsPage = () => {
     { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
     { name: "CSS3", icon: <FaCss3Alt className="text-blue-500" /> },
     { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
-    { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
+    
     { name: "React", icon: <FaReact className="text-cyan-400" /> },
     { name: "Next.js", icon: <SiNextdotjs className="text-white" /> },
-    { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
+   
     { name: "MySQL", icon: <SiMysql className="text-blue-300" /> },
     { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
     { name: "GitHub", icon: <FaGithub className="text-white" /> },
