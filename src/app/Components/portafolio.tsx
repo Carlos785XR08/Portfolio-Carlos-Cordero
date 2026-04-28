@@ -44,7 +44,7 @@ const Portafolio = ({ data }: PortafolioProps) => {
         alt="image product"
         width={200}
         height={200}
-        className="w-full rounded-xl h-35"
+        className="w-full max-w-[150px] mx-auto rounded-xl object-cover "
       />
 
       

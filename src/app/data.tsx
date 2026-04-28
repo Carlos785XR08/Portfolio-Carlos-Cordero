@@ -148,7 +148,7 @@ export const dataPortfolio = [
     {
         id: 1,
         title: "Huerto Feliz",
-        image: "/images/code.jpg",
+        image: "/images/Huerto.jpg",
         urlGithub: "https://carlos785xr08.github.io/Huerto_Feliz.github.io/",
         urlDemo: "#!",
         technologies: ["HTML", "CSS", "JavaScript"]
@@ -156,7 +156,7 @@ export const dataPortfolio = [
     {
         id: 2,
         title: "Desarrollo Web Ágil",
-        image: "/images/code.jpg",
+        image: "/images/Huerto.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
