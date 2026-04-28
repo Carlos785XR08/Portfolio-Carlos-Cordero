@@ -147,15 +147,16 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
+        title: "Huerto Feliz",
+        image: "/images/code.jpg",
+        urlGithub: "https://carlos785xr08.github.io/Huerto_Feliz.github.io/",
         urlDemo: "#!",
+        technologies: ["HTML", "CSS", "JavaScript"]
     },
     {
         id: 2,
         title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
+        image: "/images/code.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
