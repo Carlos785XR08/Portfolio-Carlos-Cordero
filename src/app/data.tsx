@@ -11,7 +11,7 @@ export const socialNetworks = [
     {
         id: 2,
         logo: <FaLinkedin size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "linkedin.com/in/carlos-cordero-núñez-6541b5293",
     },
     {
         id: 3,
