@@ -6,12 +6,12 @@ export const socialNetworks = [
     {
         id: 1,
         logo: <FaGithub size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://github.com/Carlos785XR08",
     },
     {
         id: 2,
         logo: <FaLinkedin size={30} strokeWidth={1} />,
-        src: "linkedin.com/in/carlos-cordero-núñez-6541b5293",
+        src: "https://www.linkedin.com/in/carlos-cordero-núñez-6541b5293",
     },
     {
         id: 3,
