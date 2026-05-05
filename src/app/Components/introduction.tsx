@@ -57,7 +57,7 @@ const Introduction = () => {
           </h1>
 
           <p className="mb-6 text-base md:text-lg">
-            Desarrollador Web con experiencia en la creación e implementación de soluciones digitales, 
+            Desarrollador Web y de Sistemas con experiencia en la creación e implementación de soluciones digitales, 
             desde el diseño hasta el despliegue en producción. Enfocado en el desarrollo de interfaces 
             modernas y eficientes, con especialización en frontend y conocimientos en backend.
           </p>

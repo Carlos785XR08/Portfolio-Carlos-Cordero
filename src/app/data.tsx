@@ -65,21 +65,21 @@ export const dataAboutPage = [
         id: 1,
         title: "Desarrollador Web / Marketing",
         subtitle: "Cimbramex",
-        description: "Colaboré con un equipo dinámico para desarrollar sitio web.",
+        description:  "Colaboración en diseño en Figma y desarrollo de sitio web  en WordPresss. con personalizaciones de HTML, CSS, JS y Apoyo en mantenimiento y mejoras de sitio Web existente. ",  
         date: "sep. 2025 - mar. 2026 " ,
     },
     {
         id: 2,
         title: "Analista Jr",
         subtitle: "Financiera. Broxel",
-        description: "Trabajé en proyectos emocionantes.",
+        description: "Colaboré en el análisis y manipulación de datos (CSV, Excel, bases de datos), creando scripts para filtrado, limpieza y unión, utilizando Google Colab, Python, SQL y Pandas y Apoyé en el desarrollo de un sistema en C# para el envío de información a la CNBV.",
         date: "Mar. 2025 - Jun. 2025",
     },
     {
         id: 3,
         title: "Desarrollo de Software",
         subtitle: "CFE Telecomunicaciones e internet para todos",
-        description: "Como desarrollador frontend, tuve la oportunidad de colaborar en proyectos .",
+        description: " Participé en la creación de capas para coberturas con QGIS y Mapshaper, Colaboré en desarrollo web con HTML5, CSS3, JavaScript y React Js, Optimicé procesos y estandaricé diagramas de flujo en Bizagi Modeler ",
         date: "Ene. 2024 - Ene. 2025",
     },
     
@@ -119,13 +119,13 @@ export const dataCounter = [
 export const serviceData = [
     {
         icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
+        title: "Data & Scripts",
+        description: "Automatización y análisis de datos con Python.",
     },
     {
         icon: <Pencil />,
-        title: "Diseño web",
-        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
+        title: "Diseño web UI/UX",
+        description: " Diseño de interfaces claras, accesibles y centradas en el usuario.",
     },
     {
         icon: <Computer />,
@@ -134,13 +134,13 @@ export const serviceData = [
     },
     {
         icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
+        title: "Software",
+        description: "Soluciones con Java y Python.",
     },
     {
         icon: <Rocket />,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        title: "Desarrollo de Software",
+        description: "Desarrollo de soluciones integrando análisis geoespacial, y optimización de procesos mediante modelado en Bizagi Modeler. ",
     },
 ];
 
@@ -151,6 +151,8 @@ export const dataPortfolio = [
         image: "/images/Huerto.jpg",
         urlGithub: "https://carlos785xr08.github.io/Huerto_Feliz.github.io/",
         urlDemo: "#!",
+         description:
+      "Sitio web para proyecto de huertos urbanos, diseñado para escalar e implementarse en México. ",
         technologies: ["HTML", "CSS", "JavaScript"]
     },
     {
@@ -159,8 +161,9 @@ export const dataPortfolio = [
         image: "/images/Huerto.jpg",
         urlGithub: "https://www.figma.com/proto/bl8Yml34HzjLdERnlI72IX/Sin-t%C3%ADtulo?node-id=1-3719&t=9tPsasguMRUsqWPc-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
         urlDemo: "",
+        technologies: ["FIGMA", ]
     },
-    {
+   /* {
         id: 3,
         title: "Estrategias Web",
         image: "/image-3.jpg",
@@ -173,7 +176,7 @@ export const dataPortfolio = [
         image: "/image-4.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
-    },
+    },*/
    
 ];
 
