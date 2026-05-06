@@ -157,10 +157,12 @@ export const dataPortfolio = [
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
+        title: "DevFlow AI | SaaS Platform",
         image: "/images/Huerto.jpg",
-        urlGithub: "https://www.figma.com/proto/mnxDMS1PPW71342gV4FGwB/Sin-t%C3%ADtulo?node-id=1-2&t=na7wwwwf7jNVHfJU-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
-        urlDemo: "",
+        urlGithub: "https://www.figma.com/proto/bl8Yml34HzjLdERnlI72IX/Sin-t%C3%ADtulo?node-id=55-731&t=57VYGYF061mRSEoh-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&hide-ui=1",
+        urlDemo: "https://www.figma.com/proto/bl8Yml34HzjLdERnlI72IX/Sin-t%C3%ADtulo?node-id=55-731&t=57VYGYF061mRSEoh-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&hide-ui=1",
+        description:
+      "Interfaz moderna creada en Figma inspirada en plataforma SaaS  y tecnología IA.",
         technologies: ["FIGMA", ]
     },
    /* {
