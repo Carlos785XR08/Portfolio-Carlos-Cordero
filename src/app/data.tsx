@@ -159,7 +159,7 @@ export const dataPortfolio = [
         id: 2,
         title: "Desarrollo Web Ágil",
         image: "/images/Huerto.jpg",
-        urlGithub: "https://www.figma.com/proto/bl8Yml34HzjLdERnlI72IX/Sin-t%C3%ADtulo?node-id=1-3719&t=9tPsasguMRUsqWPc-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+        urlGithub: "https://www.figma.com/proto/mnxDMS1PPW71342gV4FGwB/Sin-t%C3%ADtulo?node-id=1-2&t=na7wwwwf7jNVHfJU-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
         urlDemo: "",
         technologies: ["FIGMA", ]
     },
