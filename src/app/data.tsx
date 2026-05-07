@@ -150,7 +150,7 @@ export const dataPortfolio = [
         title: "Huerto Feliz",
         image: "/images/Huerto.jpg",
         urlGithub: "https://carlos785xr08.github.io/Huerto_Feliz.github.io/",
-        urlDemo: "#!",
+        urlDemo: "https://carlos785xr08.github.io/Huerto_Feliz.github.io/",
          description:
       "Sitio web para proyecto de huertos urbanos, diseñado para escalar e implementarse en México. ",
         technologies: ["HTML", "CSS", "JavaScript"]
