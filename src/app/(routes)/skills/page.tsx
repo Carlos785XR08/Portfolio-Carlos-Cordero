@@ -77,7 +77,7 @@ const skillsPage = () => {
 
           {/* 🔥 TECNOLOGÍAS */}
           <div className="mt-6">
-            <h3 className=" mb-6  text-2xl text-center font-semibold text-white">
+            <h3 className=" mb-6  text-2xl text-center font-semibold text-white ">
               Tecnologías
             </h3>
 

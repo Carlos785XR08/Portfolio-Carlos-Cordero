@@ -50,22 +50,25 @@ const Portafolio = ({ data }: PortafolioProps) => {
 
       {/* BUTTONS */}
       <div className="flex justify-center gap-4 mt-5">
+        
+         <Link
+          href={urlDemo}
+          target="_blank"
+          className="flex items-center gap-2 px-2 py-2 text-sm rounded-lg bg-[#61DAFB] text-black font-medium hover:bg-[#61DAFB]/80 transition"
+        >
+          🚀  Demo
+        </Link>
+        
         <Link
           href={urlGithub}
           target="_blank"
           className="flex items-center gap-2 px-4 py-2 text-sm rounded-lg bg-slate-600 hover:bg-slate-500 text-white transition"
         >
           <FaGithub />
-          Github
+          GitHub
         </Link>
 
-        <Link
-          href={urlDemo}
-          target="_blank"
-          className="flex items-center gap-2 px-2 py-2 text-sm rounded-lg bg-[#61DAFB] text-black font-medium hover:bg-[#61DAFB]/80 transition"
-        >
-          🚀 Demo
-        </Link>
+       
       </div>
 
       {/* 🔥 DESCRIPCIÓN (NUEVO) */}

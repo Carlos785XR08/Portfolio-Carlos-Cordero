@@ -117,21 +117,26 @@ export const dataCounter = [
 ];
 
 export const serviceData = [
+     {
+        icon: <Computer />,
+        title: "Desarrollo web",
+        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
+    },
+    
+    
+      {
+        icon: <Pencil />,
+        title: "Diseño web UI/UX",
+        description: " Diseño de interfaces claras, accesibles y centradas en el usuario.",
+    },
+
     {
         icon: <Crop />,
         title: "Data & Scripts",
         description: "Automatización y análisis de datos con Python.",
     },
-    {
-        icon: <Pencil />,
-        title: "Diseño web UI/UX",
-        description: " Diseño de interfaces claras, accesibles y centradas en el usuario.",
-    },
-    {
-        icon: <Computer />,
-        title: "Desarrollo web",
-        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
-    },
+   
+   
     {
         icon: <Book />,
         title: "Software",
@@ -149,7 +154,7 @@ export const dataPortfolio = [
         id: 1,
         title: "Huerto Feliz",
         image: "/images/Huerto.jpg",
-        urlGithub: "https://carlos785xr08.github.io/Huerto_Feliz.github.io/",
+        urlGithub: "https://github.com/Carlos785XR08/Huerto_Feliz.github.io",
         urlDemo: "https://carlos785xr08.github.io/Huerto_Feliz.github.io/",
          description:
       "Sitio web para proyecto de huertos urbanos, diseñado para escalar e implementarse en México. ",
@@ -157,7 +162,7 @@ export const dataPortfolio = [
     },
     {
         id: 2,
-        title: "DevFlow AI | SaaS Platform",
+        title: "Diseño | DevFlow AI",
         image: "/images/DevFlow.png",
         urlGithub: "https://www.figma.com/proto/bl8Yml34HzjLdERnlI72IX/Sin-t%C3%ADtulo?node-id=55-731&t=57VYGYF061mRSEoh-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&hide-ui=1",
         urlDemo: "https://www.figma.com/proto/bl8Yml34HzjLdERnlI72IX/Sin-t%C3%ADtulo?node-id=55-731&t=57VYGYF061mRSEoh-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&hide-ui=1",
