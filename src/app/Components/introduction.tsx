@@ -73,7 +73,7 @@ const Introduction = () => {
             </Link>
 
             <a
-              href="/CV_Carlos_Arturo_Cordero_Núñez.pdf"
+              href="/Carlos_Arturo_Cordero_Núñez_CV.pdf"
               download
               className="px-4 py-2 border-2 rounded-xl hover:shadow-xl hover:shadow-white/50 transition-all"
             >
