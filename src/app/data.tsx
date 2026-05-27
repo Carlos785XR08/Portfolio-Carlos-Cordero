@@ -65,7 +65,7 @@ export const dataAboutPage = [
         id: 1,
         title: "Desarrollador Web / Marketing",
         subtitle: "Cimbramex",
-        description:  "Colaboración en diseño en Figma y desarrollo de sitio web  en WordPresss. con personalizaciones de HTML, CSS, JS y Apoyo en mantenimiento y mejoras de sitio Web existente. ",  
+        description:  "Colaboración en diseño de interfacesen Figma y desarrollo de sitio web  en WordPresss. con personalizaciones de HTML, CSS, JS y Apoyo en mantenimiento y mejoras de sitios Web, colaborando con el área de marketing para optimizar la experiencia visual y digital de la marca. ",  
         date: "sep. 2025 - mar. 2026 " ,
     },
     {
