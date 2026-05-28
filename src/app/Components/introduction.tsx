@@ -57,9 +57,7 @@ const Introduction = () => {
           </h1>
 
           <p className="mb-6 text-base md:text-lg">
-            Desarrollador Web y de Sistemas con experiencia en la creación e implementación de soluciones digitales, 
-            desde el diseño hasta el despliegue en producción. Enfocado en el desarrollo de interfaces 
-            modernas y eficientes, con especialización en frontend y conocimientos en backend.
+            Desarrollador Web y de Sistemas enfocado en frontend y diseño de interfaces digitales, con experiencia en la creación de soluciones modernas, funcionales y conocimientos en backend y despliegue de proyectos.
           </p>
 
           {/* 🔘 Botones */}
@@ -73,7 +71,7 @@ const Introduction = () => {
             </Link>
 
             <a
-              href="/Carlos_Arturo_Cordero_Núñez_CV.pdf"
+              href="/CV_Carlos_Arturo_Cordero_Núñez.pdf"
               download
               className="px-4 py-2 border-2 rounded-xl hover:shadow-xl hover:shadow-white/50 transition-all"
             >

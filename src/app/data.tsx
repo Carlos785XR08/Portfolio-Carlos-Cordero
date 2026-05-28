@@ -72,14 +72,14 @@ export const dataAboutPage = [
         id: 2,
         title: "Analista Jr",
         subtitle: "Financiera. Broxel",
-        description: "Colaboré en el análisis y manipulación de datos (CSV, Excel, bases de datos), creando scripts para filtrado, limpieza y unión, utilizando Google Colab, Python, SQL y Pandas y Apoyé en el desarrollo de un sistema en C# para el envío de información a la CNBV.",
+        description: "Colaboré en el área de Crédito y Cobranza desarrollando scripts para análisis y automatización de datos (CSV, Excel y bases de datos) utilizando Python, SQL, Pandas y Google Colab. Participé  en el desarrollo de un sistema en C# para el envío de información a la CNBV. Apoyé en mesa de validación gestionando información operativa con Google Workspace.",
         date: "Mar. 2025 - Jun. 2025",
     },
     {
         id: 3,
         title: "Desarrollo de Software",
         subtitle: "CFE Telecomunicaciones e internet para todos",
-        description: " Participé en la creación de capas para coberturas con QGIS y Mapshaper, Colaboré en desarrollo web con HTML5, CSS3, JavaScript y React Js, Optimicé procesos y estandaricé diagramas de flujo en Bizagi Modeler ",
+        description: " Colaboré en desarrollo web con HTML5, CSS3, JavaScript y React Js. Participé en la automatización de procesos utilizando Bizagi Modeler para diagramas de flujo. Colaboración en proyecto de creación de capas de coberturas utilizando QGIS y Mapshaper. ",
         date: "Ene. 2024 - Ene. 2025",
     },
     
