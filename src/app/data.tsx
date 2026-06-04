@@ -174,8 +174,8 @@ export const dataPortfolio = [
         id: 3,
         title: "Diseño en Figma / E-commerce",
         image: "/image-3.jpg",
-        urlGithub: "https://www.figma.com/proto/xNp33WW0FsuliAzUH2mIke/Sin-t%C3%ADtulo?node-id=14-2&p=f&t=HAteOhwnY7NcDdvY-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=14%3A2&show-proto-sidebar=1",
-        urlDemo: "#!",
+        urlGithub: "https://www.figma.com/proto/X6MttiCxdReIeVhXBkOT6g/Sin-t%C3%ADtulo?node-id=7-2&t=xhKcDwBCBDByW93b-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
+        urlDemo: "https://www.figma.com/proto/X6MttiCxdReIeVhXBkOT6g/Sin-t%C3%ADtulo?node-id=7-2&t=xhKcDwBCBDByW93b-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
     },
     /*{
         id: 4,
