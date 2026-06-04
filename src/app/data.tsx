@@ -170,14 +170,14 @@ export const dataPortfolio = [
       "Interfaz moderna creada en Figma inspirada en plataforma SaaS  y tecnología IA.",
         technologies: ["FIGMA", ]
     },
-   /* {
+ {
         id: 3,
-        title: "Estrategias Web",
+        title: "Diseño en Figma / E-commerce",
         image: "/image-3.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://www.figma.com/proto/xNp33WW0FsuliAzUH2mIke/Sin-t%C3%ADtulo?node-id=14-2&p=f&t=HAteOhwnY7NcDdvY-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=14%3A2&show-proto-sidebar=1",
         urlDemo: "#!",
     },
-    {
+    /*{
         id: 4,
         title: "Ideas Creativas",
         image: "/image-4.jpg",
